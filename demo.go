@@ -7,7 +7,7 @@ import (
 )
 
 func GetHtmlDemo() {
-	dst_url := "https://www.google.com"
+	dst_url := "https://www.zhihu.com"
 	proxy_str := "http://127.0.0.1:8888"
 	defaultCookieJar, _ := cookiejar.New(nil)
 	var headerMap map[string]string = map[string]string{
